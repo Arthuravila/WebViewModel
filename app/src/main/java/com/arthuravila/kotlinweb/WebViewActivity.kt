@@ -1,4 +1,4 @@
-package com.azhamudev.kotlinproject
+package com.arthuravila.kotlinweb
 
 import android.animation.ValueAnimator
 import android.content.Context

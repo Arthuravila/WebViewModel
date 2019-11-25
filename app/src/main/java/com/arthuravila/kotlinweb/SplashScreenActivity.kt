@@ -1,4 +1,4 @@
-package com.azhamudev.kotlinproject
+package com.arthuravila.kotlinweb
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -13,7 +13,7 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
         Timer().schedule(3000) {
-            val intent = Intent(applicationContext, WebViewActivity::class.java)
+            val intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
             finish()
         }
