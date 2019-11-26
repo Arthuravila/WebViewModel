@@ -1,17 +1,63 @@
 <resources>
-    <string name="app_name">Kotlin WebView</string>
+    <string name="app_name">IPVA 2019</string>
 
-    <string-array name="city_list">
-        <item>Bangkok</item>
-        <item>London</item>
-        <item>Paris</item>
-        <item>Singapore</item>
-        <item>New York</item>
-        <item>Istanbul</item>
-        <item>Dubai</item>
-        <item>Kuala Lumpur</item>
-        <item>Hong Kong</item>
-        <item>Barcelona</item>
+    <string-array name="estados">
+        <item>Acre</item>
+        <item>Alagoas</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+        <item>Ceará</item>
+        <item>Distrito Federal</item>
+        <item>Espírito Santo</item>
+        <item>Goiás</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Minas Gerais</item>
+        <item>Pará</item>
+        <item>Paraíba</item>
+        <item>Paraná</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Tocantins</item>
+    </string-array>
 
+    <string-array name="links">
+        <item>https://www.detran.ac.gov.br/site/apps/veiculo/consulta/filtro-consulta-veiculo.jsp</item>
+        <item>http://apl03.sefaz.al.gov.br/ipvaonline/</item>
+        <item>http://www.detran.ap.gov.br/detranap/veiculo/consulta-de-veiculos/</item>
+        <item>https://online.sefaz.am.gov.br/ipva/ipva.asp</item>
+        <item>http://www.servicos.detran.ba.gov.br/pages/consultaveiculo/consultaveiculoindex.xhtml</item>
+        <item>http://www2.sefaz.ce.gov.br/ipva/#/impostos/emitir-dae</item>
+        <item>http://www.detran.df.gov.br/consultar-veiculo.html</item>
+        <item>http://sitedetran.es.gov.br/NovoConsultaVeiculoES.asp</item>
+        <item>http://aplicacao.sefaz.go.gov.br/post/ver/140881</item>
+        <item>http://aplicacoes.ma.gov.br/ipva/jsp/consultaDebitosIpva/consultaDebitosIpva.jsf</item>
+        <item>https://www.sefaz.mt.gov.br/ipva/webrellan/ValidaVclFormIni.jsp</item>
+        <item>http://www.detran.ms.gov.br/consulta-de-debitos/</item>
+        <item>http://ipva1.fazenda.mg.gov.br/ipvaonline/inputConsultaIpvaPorRenavam.action</item>
+        <item>http://www.detran.pa.gov.br/sistransito/detran-web/servicos/b/indexBLicencAnoAtual.jsf</item>
+        <item>https://www.receita.pb.gov.br/ser/servirtual/ipva/emitir-dar</item>
+        <item>http://www.fazenda.pr.gov.br/modules/conteudo/ipva.php</item>
+        <item>https://www.detran.pe.gov.br/index.php?option=com_content&amp;id=396&amp;Itemid=15</item>
+        <item>http://webas.sefaz.pi.gov.br/clvn/</item>
+        <item>https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJLoader.do</item>
+        <item>http://www2.detran.rn.gov.br/externo/consultarveiculo.asp</item>
+        <item>https://www.portaldetransito.rs.gov.br/dtw2/app/servico/rpv/consulta-rpv-form.xhtml</item>
+        <item>https://consulta.detran.ro.gov.br/CentralDeConsultasInternet/Software/ViewConsultaVeiculos.aspx</item>
+        <item>https://www.rr.getran.com.br/site/apps/veiculo/filtroplacarenavam-consultaveiculo.jsp</item>
+        <item>http://www.detran.sc.gov.br/informacoes/veiculos</item>
+        <item>https://www.ipva.fazenda.sp.gov.br/IPVANET_Consulta/Consulta.aspx</item>
+        <item>https://seguro.detran.se.gov.br/portal/?pg=detalhamento_ipva</item>
+        <item>http://www.sefaz2.to.gov.br/ipva/dare.php</item>
     </string-array>
 </resources>

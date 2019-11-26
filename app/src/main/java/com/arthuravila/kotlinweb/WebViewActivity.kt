@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.net.ConnectivityManager
 import android.os.Bundle
+import android.util.Log
 import android.provider.Settings
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
@@ -21,13 +22,18 @@ import kotlinx.android.synthetic.main.activity_web_view.*
 
 class WebViewActivity : AppCompatActivity(){
 
-    private val URL = "https://google.com"
+    private lateinit  var URL: String
     private var isAlreadyCreated = false
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_view)
+
+        val url = intent.getStringExtra("url")
+        URL = url
+
+        Log.d("URL", URL)
 
         startLoaderAnimate()
 
@@ -66,7 +72,7 @@ class WebViewActivity : AppCompatActivity(){
                 this@WebViewActivity.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         val networkInfo = connectionManager.activeNetworkInfo
 
-        return networkInfo != null && networkInfo.isConnectedOrConnecting
+        return networkInfo != null && connectionManager.isDefaultNetworkActive
     }
 
     override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {

@@ -7,13 +7,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/kotlin"
+        android:icon="@drawable/ipva"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/kotlin"
+        android:roundIcon="@drawable/ipva"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".SplashScreenActivity">
+        <activity android:name=".SplashScreenActivity"
+            android:theme="@style/AppTheme.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
